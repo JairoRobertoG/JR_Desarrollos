@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JR_Desarrollos", "JR_Desarrollos\JR_Desarrollos.csproj", "{BB2D2C90-7A82-48B0-BE38-5065BE83E54A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JR_Desarrollos_COM", "JR_Desarrollos_COM\JR_Desarrollos_COM.csproj", "{A08E7509-3B83-4EC8-AC7A-30BC7DFE1146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2D2C90-7A82-48B0-BE38-5065BE83E54A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2D2C90-7A82-48B0-BE38-5065BE83E54A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2D2C90-7A82-48B0-BE38-5065BE83E54A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2D2C90-7A82-48B0-BE38-5065BE83E54A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A08E7509-3B83-4EC8-AC7A-30BC7DFE1146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A08E7509-3B83-4EC8-AC7A-30BC7DFE1146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A08E7509-3B83-4EC8-AC7A-30BC7DFE1146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A08E7509-3B83-4EC8-AC7A-30BC7DFE1146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
