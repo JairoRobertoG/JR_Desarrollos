@@ -5,14 +5,12 @@
 <html lang="en">
 <head>
     <link rel="shortcut icon" type="image/x-icon" href="img/WebCreateLogo.ico">
-    <title>WebCreate</title>
+    <title>JR Desarrollos</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Empresa para desarrollo">
     <meta name="author" content="">
-
-    <title>Agency - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -39,6 +37,7 @@
 </head>
 <body id="page-top" class="index">
     <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
@@ -438,14 +437,14 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Mensaje *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <asp:TextBox ID="txtMessage" runat="server" class="form-control" placeholder="Mensaje *" required data-validation-required-message="Please enter a message." TextMode="MultiLine" Height="235"></asp:TextBox>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="clearfix"></div>
                             <div class="col-lg-12 text-center">
                                 <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Enviar Mensaje</button>
+                                <asp:Button ID="btnSubmit" class="btn btn-xl" runat="server" Text="Enviar Mensaje" />
                             </div>
                         </div>
                     </form>
@@ -651,6 +650,24 @@
             </div>
         </div>
     </div>
+
+    <!--Modal-->
+    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Modal Header</h4>
+        </div>
+         <div class="modal-body">
+          <p>This is a small modal.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div> 
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
