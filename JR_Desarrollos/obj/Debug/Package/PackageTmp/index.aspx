@@ -84,7 +84,7 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a JR Desarrollos</div>
+                <div class="intro-lead-in">Bienvenido a WebCreate</div>
                 <div class="intro-heading">Haz Crecer a tu Empresa</div>
                 <a href="#services" class="page-scroll btn btn-xl">Mas Información</a>
             </div>
