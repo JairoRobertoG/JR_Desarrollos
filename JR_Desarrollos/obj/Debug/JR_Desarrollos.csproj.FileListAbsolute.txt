@@ -2,7 +2,7 @@ c:\users\jairoroberto\documents\visual studio 2010\Projects\JR_Desarrollos\JR_De
 c:\users\jairoroberto\documents\visual studio 2010\Projects\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.pdb
 c:\users\jairoroberto\documents\visual studio 2010\Projects\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
 c:\users\jairoroberto\documents\visual studio 2010\Projects\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
-C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.dll
-C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.pdb
-C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
-C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
+C:\Users\JAIROROBERTO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.dll
+C:\Users\JAIROROBERTO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.pdb
+C:\Users\JAIROROBERTO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
+C:\Users\JAIROROBERTO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
