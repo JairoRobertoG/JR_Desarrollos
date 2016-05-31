@@ -342,24 +342,44 @@
     <aside class="clients">
         <div class="container">
             <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
+                <div class="col-md-12 text-center">
+                    <h4>Código <span class="bold">Nuevo y Seguro</span></h4>
+                    <h5>Utilizamos la tecnología más adecuada</h5>
+                    <p>Cada página web o aplicación web es diferente dependiendo 
+                        de las necesidades de nuestros clientes, es por esa razón 
+                        trabajamos con diferentes tecnologías para asegurar un excelente 
+                        rendimiento, compatibilidad y extensibilidad. Desde sitios web 
+                        básicos en HTML5 y CSS3 hasta sitios complejos con bases de datos, 
+                        manejo de usuarios, etc.</p>
+                </div>
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="http://www.w3schools.com/html/html5_intro.asp">
+                        <img src="img/logos/html5.png" class="img-responsive img-centered logos" alt="html5">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="http://www.w3schools.com/css/css3_intro.asp">
+                        <img src="img/logos/css3.png" class="img-responsive img-centered logos" alt="css3">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="https://www.javascript.com/">
+                        <img src="img/logos/javascript.png" class="img-responsive img-centered logos" alt="javascript">
                     </a>
                 </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="https://jquery.com/">
+                        <img src="img/logos/jquery.png" class="img-responsive img-centered" alt="jquery">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="http://getbootstrap.com/">
+                        <img src="img/logos/boostrap.png" class="img-responsive img-centered" alt="boostrap">
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-2">
+                    <a target="_blank" href="http://www.asp.net/">
+                        <img src="img/logos/asp.png" class="img-responsive img-centered" alt="asp">
                     </a>
                 </div>
             </div>
@@ -608,24 +628,6 @@
             </div>
         </div>
     </div>
-
-    <!--Modal-->
-    <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog modal-sm">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Modal Header</h4>
-        </div>
-         <div class="modal-body">
-          <p>This is a small modal.</p>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-    </div> 
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
