@@ -1,4 +1,11 @@
-﻿.invisible
-{
+﻿.invisible{
     display: none;
+}
+
+.title{
+    color: #1DE2BA;
+}
+
+.bold{
+    font-weight: bold;
 }

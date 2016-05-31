@@ -84,8 +84,8 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Bienvenido a JR Desarrollos</div>
-                <div class="intro-heading">Haz Crecer a tu Empresa</div>
+                <div class="intro-lead-in">Bienvenido a <span class="title bold">JR</span> <span class="title">Desarrollos</span></div>
+                <div class="intro-heading">Conoce todos los servicios que te ofrecemos</div>
                 <a href="#services" class="page-scroll btn btn-xl">Mas Información</a>
             </div>
         </div>
@@ -101,37 +101,49 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-camera-retro fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Aplicaciones de Escritorio</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Creación de Páginas Web</h4>
+                    <p class="text-muted">Te brindamos la creación y diseño 
+                        página web de una manera profesional, utilizando lo 
+                        último en tecnología para crear experiencias únicas 
+                        para los usuarios</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-mobile fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Diseño Responsivo</h4>
-                    <p class="text-muted">Creación de paginas web con diseño responsivo para cualquier dispositivo</p>
+                    <p class="text-muted">Si deseas que tu página web sea compatible 
+                        con cualquier tipo de dispositivo móvil sean computadoras de 
+                        escritorio, laptops, tabletas y celulares ajustando su estructura 
+                        para mostrar tu información de una manera legible sin que se tenga 
+                        que estar haciendo zoom, entonces necesitas el diseño responsivo.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-file-text-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Administrador de Contenidos</h4>
+                    <p class="text-muted">Si necesitas actualizar tu sitio constantemente, 
+                        entonces un administrador de contenido es para ti ya que podrás añadir 
+                        contenido cada vez que lo desees y de la forma más fácil.</p>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-3">
                     <span class="fa-stack fa-4x">
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Servicios Web</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="service-heading">Aplicaciones de Escritorio</h4>
+                    <p class="text-muted">Tienes un negocio y necesitas administrarlo 
+                        más fácilmente una aplicación de escritorio es la opción ya que 
+                        te permitirá llevar el control de tus clientes, citas, empleados y más. 
+                        Facilitándote la administración para brindar un mejor servicio a tus clientes.</p>
                 </div>
             </div>
         </div>
@@ -240,84 +252,30 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Nosotros</h2>
+                    <h3 class="section-subheading text-muted">Trabajamos Para Crear Sitios Innovadores</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <h4>Pasión por el desarrollo</h4>
+                        <p class="text-muted">Somos una empresa conformada por jóvenes con ganas de trabajar, 
+                                        Surgió la idea de crear <span class="title bold">JR</span> <span class="title">Desarrollos</span> para poder desarrollar páginas web para las 
+                                        empresas mexicanas a un precio accesible y poder contribuir al desarrollo tecnológico 
+                                        del comercio en el país y así poder tener empresas vanguardistas para las demandas 
+                                        de estos tiempos. </p>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="img-circle img-responsive" src="img/about/developer.jpg" alt="" width="500">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
+   <%-- <section id="team" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -378,10 +336,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>--%>
 
     <!-- Clients Aside -->
-    <!--<aside class="clients">
+    <aside class="clients">
         <div class="container">
             <div class="row">
                 <div class="col-md-3 col-sm-6">
@@ -406,7 +364,7 @@
                 </div>
             </div>
         </div>
-    </aside>-->
+    </aside>
     
     <!-- Contact Section -->
     <section id="contact">
@@ -457,7 +415,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; WebCreate 2016</span>
+                    <span class="copyright">Copyright &copy; JRDesarrollos 2016</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
