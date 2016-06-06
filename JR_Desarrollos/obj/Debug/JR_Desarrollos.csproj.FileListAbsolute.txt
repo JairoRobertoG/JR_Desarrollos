@@ -12,3 +12,4 @@ C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarroll
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
+C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache
