@@ -9,7 +9,12 @@ C:\Users\JAIROROBERTO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\J
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.dll.config
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.dll
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\JR_Desarrollos.pdb
-C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
 C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
 C:\Users\JairoRoberto\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\mailkit.dll
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\BouncyCastle.Crypto.dll
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\MimeKit.dll
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\MailKit.xml
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\MimeKit.xml
+C:\Users\USUARIO\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache
