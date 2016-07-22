@@ -96,6 +96,7 @@
     <Content Include="img\logos\php.png" />
     <Content Include="img\map-image.png" />
     <Content Include="img\portfolio\dreams-preview.png" />
+    <Content Include="img\portfolio\dreams.jpg" />
     <Content Include="img\portfolio\dreams.png" />
     <Content Include="img\portfolio\escape-preview.png" />
     <Content Include="img\portfolio\escape.png" />
@@ -191,9 +192,6 @@
     <None Include="fonts\glyphicons-halflings-regular.ttf" />
     <None Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="fonts\glyphicons-halflings-regular.woff2" />
-    <None Include="less\agency.less" />
-    <None Include="less\mixins.less" />
-    <None Include="less\variables.less" />
     <Content Include="packages.config" />
   </ItemGroup>
   <PropertyGroup>

@@ -153,40 +153,56 @@
         <div class="container">
             <div class="row">
                 <div id="myCarousel" class="carousel slide " data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
 
-                <div class="carousel-inner " role="listbox">
-                    <div class="item active">
-                        <img src="img/portfolio/dreams-preview.png" alt="Chania" class="image">
-                        <div class="carousel-caption">
-                          <h3>1</h3>
-                          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                    <div class="carousel-inner " role="listbox">
+                        <div class="item active">
+                            <img src="img/portfolio/dreams-preview.png" alt="Chania" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>1</h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
                         </div>
-                      </div>
 
-                      <div class="item">
-                        <img src="img/portfolio/dreams-preview.png" alt="Chania" class="image">
-                        <div class="carousel-caption">
-                          <h3>2</h3>
-                          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                        <div class="item">
+                            <img src="img/portfolio/escape-preview.png" alt="Chania" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>2</h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/portfolio/golden-preview.png" alt="Chania" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>2</h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <img src="img/portfolio/golden-preview.png" alt="Chania" width="460" height="345">
+                            <div class="carousel-caption">
+                                <h3>2</h3>
+                                <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-            </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
@@ -609,13 +625,7 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-    
-    <script>
-        $(document).ready(function(){
-            $('.myCarousel').carousel()
-                interval: 3000
-        });
-    </script>
+
     </form>
 </body>
 </html>
