@@ -159,7 +159,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 1.5em;
 }
 }header {
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/page/header-bg.jpg);
     background-repeat: none;
     background-attachment: scroll;
     background-position: center center;
@@ -254,7 +254,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
 }
-/*#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
     opacity: .5;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -289,10 +289,11 @@ section h3.section-subheading {
     font-style: italic;
     font-size: 16px;
     margin: 0;
-}*/
+}
 #portfolio > div, video, ol, hgroup, h1, h2  {
     z-index: 2;
 }
+
 
 @media (min-width:767px) {
     #portfolio .portfolio-item {
@@ -480,7 +481,7 @@ aside.clients img {
 }
 section#contact {
     background-color: #222;
-    background-image: url(../img/map-image.png);
+    background-image: url(../img/page/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }

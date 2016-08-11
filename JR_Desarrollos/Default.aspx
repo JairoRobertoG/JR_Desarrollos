@@ -4,7 +4,7 @@
 
 <html lang="en">
 <head>
-    <link rel="shortcut icon" type="image/x-icon" href="img/WebCreateLogo.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon/WebCreateLogo.ico">
     <title>JR Estudio</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,14 +12,17 @@
     <meta name="description" content="Empresa para desarrollo">
     <meta name="author" content="">
 
+    <!--ColorBox CSS-->
+    <link rel="stylesheet" href="css/colorbox.css" />
+    
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     
-    <!-- CSS Complemento -->
-    <link href="css/complementos.css" rel="stylesheet">
+    <!-- CSS Complements -->
+    <link href="css/complements.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -33,6 +36,8 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    
 </head>
 <body id="page-top" class="index">
     <form id="form1" runat="server">
@@ -61,7 +66,7 @@
                         <a class="page-scroll" href="#services">Servicios</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                        <a class="page-scroll" href="#portfolio">Proyecto</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#about">Acerca</a>
@@ -71,6 +76,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll iframe" href="login/LoginUser.aspx">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
@@ -149,26 +157,20 @@
     </section>
 
     <!-- Images Carrusel -->
-    <section id="portfolio" class="carousel fade-carousel slide" data-pause="click">
-        <%--<div class="overlay"></div>--%>
-
-        <video loop="loop" preload="auto" id="pretzel-video" autoplay class="video-playing">
-            <source src="//a0.muscache.com/airbnb/static/Paris-P1-1.mp4" type="video/mp4">
-            <source src="//a0.muscache.com/airbnb/static/Paris-P1-0.webm" type="video/webm">
-        </video>
-
+    <section id="portfolio" class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000">
+    
         <ol class="carousel-indicators">
             <li data-target="#portfolio" data-slide-to="0" class="active"></li>
             <li data-target="#portfolio" data-slide-to="1"></li>
             <li data-target="#portfolio" data-slide-to="2"></li>
         </ol>
-
+    
         <div class="carousel-inner">
             <div class="item slides active">
-                <div class="slide-1"></div>
+            <div class="slide-1"></div>
                 <div class="hero">
                     <hgroup>
-                        <h1>Welcome Home</h1>        
+                        <h1>We are creative</h1>        
                         <h3>Get start your next awesome project</h3>
                     </hgroup>
                     <button class="btn btn-hero btn-lg" role="button">See all features</button>
@@ -176,21 +178,21 @@
             </div>
 
             <div class="item slides">
-                <div class="slide-2"></div>
-                <div class="hero">
+            <div class="slide-2"></div>
+                <div class="hero">        
                     <hgroup>
-                        <h1>Welcome Home</h1>        
+                        <h1>We are smart</h1>        
                         <h3>Get start your next awesome project</h3>
-                    </hgroup>
+                    </hgroup>       
                     <button class="btn btn-hero btn-lg" role="button">See all features</button>
                 </div>
             </div>
 
             <div class="item slides">
-                <div class="slide-3"></div>
-                <div class="hero">
+            <div class="slide-3"></div>
+                <div class="hero">        
                     <hgroup>
-                        <h1>Welcome Home</h1>        
+                        <h1>We are amazing</h1>        
                         <h3>Get start your next awesome project</h3>
                     </hgroup>
                     <button class="btn btn-hero btn-lg" role="button">See all features</button>
@@ -285,35 +287,33 @@
             </div>
             <div class="row">
                 <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <asp:TextBox ID="txtName" class="form-control" placeholder="Nombre *" runat="server" required data-validation-required-message="Please enter your name."></asp:TextBox>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <asp:TextBox ID="txtEmail" type="email" runat="server" class="form-control" placeholder="Email *" required data-validation-required-message="Favor de color su Email"></asp:TextBox>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <asp:TextBox required data-validation-required-message="Favor de escribir el numero de celular" type="tel" class="form-control" placeholder="Telefono *" ID="TextBox1" runat="server"></asp:TextBox>
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <asp:TextBox ID="txtName" class="form-control" placeholder="Nombre *" runat="server" required data-validation-required-message="Please enter your name."></asp:TextBox>
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <asp:TextBox ID="txtMessage" runat="server" class="form-control" placeholder="Mensaje *" required data-validation-required-message="Please enter a message." TextMode="MultiLine" Height="235"></asp:TextBox>
-                                    <p class="help-block text-danger"></p>
-                                </div>
+                            <div class="form-group">
+                                <asp:TextBox ID="txtEmail" type="email" runat="server" class="form-control" placeholder="Email *" required data-validation-required-message="Favor de color su Email"></asp:TextBox>
+                                <p class="help-block text-danger"></p>
                             </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <asp:Button ID="btnSubmit" class="btn btn-xl" runat="server" Text="Enviar Mensaje" />
+                            <div class="form-group">
+                                <asp:TextBox required data-validation-required-message="Favor de escribir el numero de celular" type="tel" class="form-control" placeholder="Telefono *" ID="TextBox1" runat="server"></asp:TextBox>
+                                <p class="help-block text-danger"></p>
                             </div>
                         </div>
-                    </form>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <asp:TextBox ID="txtMessage" runat="server" class="form-control" placeholder="Mensaje *" required data-validation-required-message="Please enter a message." TextMode="MultiLine" Height="235"></asp:TextBox>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="col-lg-12 text-center">
+                            <div id="success"></div>
+                            <asp:Button ID="btnSubmit" class="btn btn-xl" runat="server" Text="Enviar Mensaje" />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -327,11 +327,11 @@
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
                         </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        <li>
+                            <a href="#"><i class="fa fa-facebook"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -356,7 +356,7 @@
                     <h4 class="modal-title ">Políticas de Privacidad</h4>
                 </div>
                 <div class="modal-body">
-                    <p>Texto de las politicas   </p>
+                    <p>Texto de las políticas</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -365,22 +365,6 @@
 
         </div>
     </div>
-
-    <script>
-        window.addEventListener('load', function () {
-            var video = document.querySelector('#pretzel-video');
-
-            function checkLoad() {
-                if (video.readyState === 4) {
-                    $('.carousel').carousel({ interval: 8500 }, 'cycle');
-                } else {
-                    setTimeout(checkLoad, 100);
-                }
-            }
-
-            checkLoad();
-        }, false);
-    </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -391,7 +375,7 @@
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
 
     <!-- Contact Form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
@@ -399,7 +383,14 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/agency.js"></script>
-
+     
+    <!--ColorBox JavaScript-->
+    <script src="js/jquery.colorbox-min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".iframe").colorbox({ iframe: true, width: "91%", height: "65%" });
+        });
+    </script>
     </form>
 </body>
 </html>
