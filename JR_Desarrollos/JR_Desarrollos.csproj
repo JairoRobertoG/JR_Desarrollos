@@ -94,8 +94,8 @@
     <Content Include="img\carrusel\1.jpg" />
     <Content Include="img\carrusel\2.jpg" />
     <Content Include="img\carrusel\3.jpg" />
+    <Content Include="img\logos\.net.png" />
     <Content Include="img\page\header-bg.jpg" />
-    <Content Include="img\logos\asp.png" />
     <Content Include="img\logos\boostrap.png" />
     <Content Include="img\logos\css3.png" />
     <Content Include="img\logos\html5.png" />

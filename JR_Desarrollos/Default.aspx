@@ -53,11 +53,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">JR Estudio</a>
+                
+                <%--<a class="navbar-brand page-scroll" href="#page-top">JR Estudio</a>--%>
+                <a href="#page-top"><img class="logo" src="img/logos/.net.png" alt="image_user" /></a>
+                <a class="iframe" href="login/LoginUser.aspx"><img class="login-image" src="img/about/developer.jpg" alt="image_user" /></a>
+                <label class="user"></label>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
@@ -269,7 +274,7 @@
                 </div>
                 <div class="col-md-4 col-sm-2">
                     <a target="_blank" href="http://www.asp.net/">
-                        <img src="img/logos/asp.png" class="img-responsive img-centered imgTecnologics" alt="asp">
+                        <img src="img/logos/.net.png" class="img-responsive img-centered imgTecnologics" alt="asp">
                     </a>
                 </div>
             </div>
@@ -285,7 +290,7 @@
                     <h3 class="section-subheading text-muted">Llena los campos para contactarte</h3>
                 </div>
             </div>
-            <div class="row">
+            <div id="contact_user" runat="server" class="row">
                 <div class="col-lg-12">
                     <div class="row">
                         <div class="col-md-6">
@@ -388,7 +393,7 @@
     <script src="js/jquery.colorbox-min.js"></script>
     <script>
         $(document).ready(function () {
-            $(".iframe").colorbox({ iframe: true, width: "91%", height: "65%" });
+            $(".iframe").colorbox({ iframe: true, width: "91%", height: "90%" });
         });
     </script>
     </form>

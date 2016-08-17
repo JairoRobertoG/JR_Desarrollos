@@ -28,4 +28,3 @@ C:\Users\jgome\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\MailKit.xml
 C:\Users\jgome\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\bin\MimeKit.xml
 C:\Users\jgome\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.dll
 C:\Users\jgome\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.pdb
-C:\Users\jgome\Documents\GitHub\JR_Desarrollos\JR_Desarrollos\obj\Debug\JR_Desarrollos.csprojResolveAssemblyReference.cache

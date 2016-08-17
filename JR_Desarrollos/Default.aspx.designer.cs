@@ -31,6 +31,15 @@ namespace JR_Desarrollos {
         protected global::System.Web.UI.ScriptManager ScriptManager1;
         
         /// <summary>
+        /// contact_user control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl contact_user;
+        
+        /// <summary>
         /// txtName control.
         /// </summary>
         /// <remarks>
