@@ -55,7 +55,7 @@
                 </button>
                 
                 <a class="navbar-brand page-scroll" href="#page-top">JR Estudio</a>
-                <a class="iframe" href="login/LoginUser.aspx"><img class="login-image" src="img/users/user_empty.png" alt="image_user" /></a>
+                <a class="iframe" href="login/LoginUser.aspx"><img class="login-image" src="img/users/User_Circle.png" alt="image_user" /></a>
                 <label class="user"></label>
             </div>
 
@@ -80,9 +80,6 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll iframe" href="login/LoginUser.aspx">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
@@ -392,7 +389,7 @@
     <script src="js/jquery.colorbox-min.js"></script>
     <script>
         $(document).ready(function () {
-            $(".iframe").colorbox({ iframe: true, width: "91%", height: "90%" });
+            $(".iframe").colorbox({ iframe: true, width: "91%", height: "70%" });
         });
     </script>
     </form>

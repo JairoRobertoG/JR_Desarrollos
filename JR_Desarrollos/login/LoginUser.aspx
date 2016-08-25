@@ -33,47 +33,50 @@
 </head>
 <body>
     <form id="form1" runat="server">
-    <!-- Contact Section -->
-    
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading"><span class="title">Contactanos</span></h2>
-                    <h3 class="section-subheading text-muted">Llena los campos para contactarte</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4">
-                    <div class="form-group">
-                        <asp:TextBox ID="txtEmail" type="email" runat="server" class="form-control" placeholder="Email o Usuario *" required data-validation-required-message="Favor de color su Email"></asp:TextBox>
-                    </div>
-                    <div class="form-group">
-                        <asp:TextBox ID="txtName" type="password" class="form-control" placeholder="Contraseña *" runat="server" required data-validation-required-message="Please enter your name."></asp:TextBox>
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+        <ContentTemplate>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2 class="section-heading"><span class="title">Contactanos</span></h2>
+                        <h3 class="section-subheading text-muted">Llena los campos para contactarte</h3>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p><span class="title">¿Olvidaste tu contraseña?</span></p>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="form-group">
+                            <asp:TextBox ID="txtEmail" type="text" runat="server" class="form-control" placeholder="Email o Usuario *" required data-validation-required-message="Favor de color su Email"></asp:TextBox>
+                        </div>
+                        <div class="form-group">
+                            <asp:TextBox ID="txtPassword" type="password" class="form-control" placeholder="Contraseña *" runat="server" required data-validation-required-message="Please enter your name."></asp:TextBox>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p><span class="title">¿Olvidaste tu contraseña?</span></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <asp:Button ID="btnSubmit" class="btn btn-xl" runat="server" Text="Iniciar Sesión" 
+                        onclick="btnSubmit_Click" />
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div id="success"></div>
-                    <asp:Button ID="btnSubmit" class="btn btn-xl" runat="server" Text="Iniciar Sesión" />
+            <footer>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 text-center">
+                            <p>¿No tienes una cuenta? <span class="title">Regístrate »</span></p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <p>¿No tienes una cuenta? <span class="title">Regístrate »</span></p>
-                </div>
-            </div>
-        </div>
-    </footer>
+            </footer>
+        </ContentTemplate>
+    </asp:UpdatePanel>    
     </form>
-    
 </body>
 </html>
