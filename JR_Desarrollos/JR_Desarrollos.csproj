@@ -115,7 +115,9 @@
     <Content Include="js\jquery.colorbox-min.js" />
     <Content Include="js\jquery.js" />
     <Content Include="login\LoginUser.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

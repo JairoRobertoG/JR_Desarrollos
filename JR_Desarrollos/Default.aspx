@@ -54,9 +54,8 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <%--<a class="navbar-brand page-scroll" href="#page-top">JR Estudio</a>--%>
-                <a href="#page-top"><img class="logo" src="img/logos/.net.png" alt="image_user" /></a>
-                <a class="iframe" href="login/LoginUser.aspx"><img class="login-image" src="img/about/developer.jpg" alt="image_user" /></a>
+                <a class="navbar-brand page-scroll" href="#page-top">JR Estudio</a>
+                <a class="iframe" href="login/LoginUser.aspx"><img class="login-image" src="img/users/user_empty.png" alt="image_user" /></a>
                 <label class="user"></label>
             </div>
 
