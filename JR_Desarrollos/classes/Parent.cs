@@ -10,11 +10,5 @@ namespace JR_Desarrollos.clParent
         public Parent()
         {
         }
-
-        public static string GetIntToString(int x)
-        {
-            return x.ToString();
-        } 
-
     }
 }
